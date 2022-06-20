@@ -1,0 +1,25 @@
+.contact-bar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 110px;
+    margin-top: 20px;
+}
+
+.contact-bar-img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    box-sizing: content-box;
+    object-fit: contain;
+}
+
+.contact-bar-img > a{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-bar-img > a > img{
+    width: 100%;
+    height: 100%;
+}

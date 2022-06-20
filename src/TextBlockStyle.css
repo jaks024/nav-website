@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'albula';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/albula.otf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+  @font-face {
+    font-family: 'andante';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/andante.otf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+  @font-face {
+    font-family: 'ptsans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/ptsans.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+  @font-face {
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./fonts/raleway.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+.textblock-default
+{
+    font-family: 'raleway', sans-serif;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.navbar-text{
+    font-size: 20px;
+    margin: 0px 20px;
+    width: fit-content;
+}
+
+.home-panel-main-text
+{
+    position: relative;
+    left: -4px;
+    text-align: left;
+    font-size: 80px;
+}
+
+.home-panel-changing-text
+{
+    text-align: left;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.home-panel-sub-text{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+.home-panel-contact-text{
+    font-size: 17px;
+    font-weight: normal;
+}
